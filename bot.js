@@ -11,6 +11,9 @@ client.on('message', message => {
       }
 });
 
+
+const prefix = "#";
+
 client.on('message', msg => {//msg
     if (msg.content === 'الوان') {
       if (msg.channel.id !== "470654400810057749") return;
